@@ -58,8 +58,8 @@
 }
 
 .display-6{
-	height: 460px;
-	background-color: green;
+	height: 560px;
+	background-color: whitesmoke;
 	padding-top: 30px;
 	margin-top: 10%;
 }
@@ -68,32 +68,37 @@
 
 .container-11{
 	height: 220px;
-	background-color: pink;
+	background-color: #efefef;
 	border-radius: 20px;
 	margin-left: 25%;
 	width: 680px ;
 	margin-top: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container-12{
 	height: 50px;
-	background-color: pink;
 	margin-left: 25%;
 	width: 70%;
 	margin-top: 2%;
 }
 
 .container-13{
-	height: 30px;
-	background-color: pink;
+	background-color: #913430;
 	margin-left: 25%;
-	width: 100px;
-	margin-top: 2%;
+	width: 200px;
+	margin-top: 4%;
 	border-radius: 100px;
 	float: right;
-	margin-right: 5%;
+	margin-right: 5%
 }
 
 #Remove{
-	margin-top: -10%;
+	color: white;
+	font-size: 14px;
+}
+
+#info{
+	margin: 0 0 10px;
+	color: black;
 }
