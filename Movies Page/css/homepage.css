@@ -84,7 +84,6 @@ header img{
 }
 
 
-
 .slider{
 	background-color: #222;
 	height: 300px;
@@ -93,7 +92,17 @@ header img{
 	border-bottom-right-radius: 25px;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   	text-align: center;
+	
 }
+
+.Slides{
+	width: 100%;
+	object-fit: contain;
+	height: 100%;
+	display: none;
+}
+
+
 
 .text{
 	color: black;
@@ -182,6 +191,7 @@ header img{
 	width: 100%; 
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   	text-align: center;
+	overflow: hidden;
 }
 
 .slider-3{
@@ -261,25 +271,423 @@ header img{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.poster-one{
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.poster-one-3{
+	background-image: url();
+	background-repeat: no-repeat;
+}
+.poster-two-3{
+	background-image: url();
+	background-repeat: no-repeat;
+}
+.poster-three-3{
+	background-image: url();
+	background-repeat: no-repeat;
+}
+.poster-four-3{
+	background-image: url();
+	background-repeat: no-repeat;
+}
 
 
 
 
+.overlay-1{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(20,35,41,0.9);
+	visibility: hidden;
+	border-radius: 20px;
+}
+
+.poster-two{
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 
 
 
+.overlay-2{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(20,35,41,0.9);
+	visibility: hidden;
+	border-radius: 20px;
+}
+
+.poster-three{
+	background-image: url();
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
 
 
 
 
+.overlay-3{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(20,35,41,0.9);
+	visibility: hidden;
+	border-radius: 20px;
+}
+
+.poster-four{
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 
 
 
+.overlay-4{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(20,35,41,0.9);
+	visibility: hidden;
+	border-radius: 20px;
+}
+
+.poster-five{
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 
 
+
+.overlay-5{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(20,35,41,0.9);
+	visibility: hidden;
+	border-radius: 20px;
+}
+
+.poster-six{
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.overlay-6{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(20,35,41,0.9);
+	visibility: hidden;
+	border-radius: 20px;
+}
+
+.poster-seven{
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.overlay-7{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(20,35,41,0.9);
+	visibility: hidden;
+	border-radius: 20px;
+}
+
+.poster-eight{
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: -55px;
+}
+
+
+
+
+.overlay-8{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(20,35,41,0.9);
+	visibility: hidden;
+	border-radius: 20px;
+}
+
+.title-one{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+}
+
+.title-two{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+}
+
+.title-three{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+}
+
+.title-four{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+}
+
+.title-five{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+}
+
+.title-six{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+}
+
+.title-seven{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+}
+
+.title-eight{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+}
+
+.btn1{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22%;
+    margin-left: 15%;
+}
+
+.btn1{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17px;
+    transition: 0.3s ease;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
+
+.btn2{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22%;
+    margin-left: 15%;
+}
+
+.btn2{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17px;
+    transition: 0.3s ease;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
+
+.btn3{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.btn3{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17px;
+    transition: 0.3s ease;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+
+.btn3:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
+
+.btn4{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22%;
+    margin-left: 15%;
+}
+
+.btn4{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17px;
+    transition: 0.3s ease;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+
+.btn4:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
+
+.btn5{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22%;
+    margin-left: 15%;
+}
+
+.btn5{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17px;
+    transition: 0.3s ease;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+
+.btn5:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
+
+.btn6{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22%;
+    margin-left: 15%;
+}
+
+.btn6{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17px;
+    transition: 0.3s ease;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+
+.btn6:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
+
+.btn7{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22%;
+    margin-left: 15%;
+}
+
+.btn7{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17px;
+    transition: 0.3s ease;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+
+.btn7:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
+
+.btn8{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22%;
+    margin-left: 15%;
+}
+
+.btn8{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17px;
+    transition: 0.3s ease;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+
+.btn8:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
 
 
 .footer{
