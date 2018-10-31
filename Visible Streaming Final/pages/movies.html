@@ -1,0 +1,259 @@
+<!doctype>
+<html>
+<head>
+	
+	 <!--Meta data-->
+        <meta name="Subject" content="IDV100">
+        <meta name="Leturer" content="Mike Maynard">
+        <meta name=StudentName content="Karabo Mthelezulu">
+        <meta name="StudnetNumber" content="180139">
+        <meta name="Assessment" content="Term 4 Final Project">
+        
+        <title>Visible Movies</title>
+      
+	<link rel="stylesheet" href="../bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="../js/jquery/1.12.0/jquery.min.js"></script>
+        <script src="../bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
+        <link rel="stylesheet" href="../css/movies.css">
+        <script src="../js/movies.js"></script>
+	</head>
+<body>
+	
+	 <header>
+			 
+			 <nav id="topnav" class="navbar navbar-inverse navbar-fixed-top">
+			 	<div id="layout" class="container">
+				 	<div id="navbar-header" class="navbar-header">
+						
+						<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items">
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar" style="width: 50px"></span>
+							<span class="icon-bar" style="width: 35px"></span>
+							<span class="icon-bar" style="width: 20px"></span>
+						</button>
+					</div>
+				</div>			 
+			 	<div id="navbar-items" class="navbar-left navbar-collapse collapse">
+				 	<ul class="nav navbar-nav hidden-sm hidden-md">
+						<li class="active"><a href="homepage.html"><h2>Home</h2></a></li>
+						<li><a href="watchlibrary-page.html"><h2>Watch list page</h2></a></li>
+						<li><a href="movies.html"><h2>Movie library page</h2></a></li>
+					</ul>
+				</div>
+				 
+				 <div class="logo hidden-sm  hidden-xs  hidden-md " style="height: 80px"></div>
+				 <div class="profile hidden-sm  hidden-xs  hidden-md"></div>
+				 <div class="profile-2 visible-sm visible-xs"></div>
+				 
+				  <div class="profile-3 visible-md visible-sm"></div>
+				 
+				<div id="sidenav" class="sidenav visible-sm visible-md">
+  					<div id="slidebtn" class="slideBtn">&#9776;</div>  
+						<a href="homepage.html"><h2>Home</h2></a>
+  						<a href="watchlibrary-page.html"><h2>Watch list page</h2></a>
+  						<a href="movies.html"><h2>Movie library page</h2></a>
+				</div>
+				 
+			</nav>
+          </header>
+	   <div class="content container">
+        <!--Movie container--> 
+           <div class="movies-slider col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 ">
+                <div class="filter-row1 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="filter-spacer col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+                    <div class="filter-one1 col-sm-2 col-xs-2 col-md-2 col-lg-2">5 Stars</div>
+                    <div class="filter-one2 col-sm-2 col-xs-2 col-md-2 col-lg-2">IMDb</div>
+                    <div class="filter-one3 col-sm-2 col-xs-2 col-md-2 col-lg-2">Genre</div>
+                    <div class="filter-one4 col-sm-2 col-xs-2 col-md-2 col-lg-2">Year</div>
+                    <div class="filter-one5 col-sm-2 col-xs-2 col-md-2 col-lg-2">Language</div>
+                    <div class="filter-spacer col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+               </div>
+               <div class="filter-row2 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="filter-spacer1 col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+                    <div class="filter-two1 col-sm-2 col-xs-2 col-md-2 col-lg-2"> 10</div>
+                    <div class="filter-two2 col-sm-2 col-xs-2 col-md-2 col-lg-2">8</div>
+                    <div class="filter-two3 col-sm-2 col-xs-2 col-md-2 col-lg-2">6</div>
+                    <div class="filter-two4 col-sm-2 col-xs-2 col-md-2 col-lg-2">4</div>
+                    <div class="filter-two5 col-sm-2 col-xs-2 col-md-2 col-lg-2">2</div>
+                    <div class="filter-spacer1 col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+               </div>
+               <div class="filter-row3 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="filter-spacer1 col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+                    <div class="filter-two1 col-sm-2 col-xs-2 col-md-2 col-lg-2">Comedy</div>
+                    <div class="filter-two2 col-sm-2 col-xs-2 col-md-2 col-lg-2">Action</div>
+                    <div class="filter-two3 col-sm-2 col-xs-2 col-md-2 col-lg-2">Drama</div>
+                    <div class="filter-two4 col-sm-2 col-xs-2 col-md-2 col-lg-2">Horror</div>
+                    <div class="filter-two5 col-sm-2 col-xs-2 col-md-2 col-lg-2">Sci-Fi</div>
+                    <div class="filter-spacer1 col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+               </div>
+               <div class="filter-row4 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="filter-spacer1 col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+                    <div class="filter-two1 col-sm-2 col-xs-2 col-md-2 col-lg-2">2010+</div>
+                    <div class="filter-two2 col-sm-2 col-xs-2 col-md-2 col-lg-2">2000+</div>
+                    <div class="filter-two3 col-sm-2 col-xs-2 col-md-2 col-lg-2">1990+</div>
+                    <div class="filter-two4 col-sm-2 col-xs-2 col-md-2 col-lg-2">1980+</div>
+                    <div class="filter-two5 col-sm-2 col-xs-2 col-md-2 col-lg-2">1970+</div>
+                    <div class="filter-spacer1 col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+               </div>
+               <div class="filter-row5 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="filter-spacer1 col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+                    <div class="filter-two1 col-sm-2 col-xs-2 col-md-2 col-lg-2">English</div>
+                    <div class="filter-two2 col-sm-2 col-xs-2 col-md-2 col-lg-2">Indian</div>
+                    <div class="filter-two3 col-sm-2 col-xs-2 col-md-2 col-lg-2">Swahili</div>
+                    <div class="filter-two4 col-sm-2 col-xs-2 col-md-2 col-lg-2">Mandarin</div>
+                    <div class="filter-two5 col-sm-2 col-xs-2 col-md-2 col-lg-2">Italian</div>
+                    <div class="filter-spacer1 col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+               </div>
+           </div>
+           
+           
+           <div class="movies-container">
+                <div class="movies-row1 col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="spacer-lg hidden-sm hidden-xs hidden-md"></div>
+                    <div class="spacer-md hidden-sm hidden-xs hidden-lg hidden-xl"></div>
+                    <div class="movie-one col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m1-overlay"><p class="title-1"></p><a href="watchlibrary-page.html"><div class="m1-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href=""><div class="m1-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                    </div>  
+                    <div class="movie-two col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m2-overlay"><p class="title-2"></p><a href="watchlibrary-page.html"><div class="m2-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m2-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-sm hidden-md hidden-lg hidden-xl"></div>
+                    <div class="movie-three col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m3-overlay"><p class="title-3"></p><a href="watchlibrary-page.html"><div class="m3-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m3-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-md hidden-sm hidden-xs hidden-lg hidden-xl"></div>
+                    <div class="movie-four col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m4-overlay"><p class="title-4"></p><a href="watchlibrary-page.html"><div class="m4-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m4-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="movie-five col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m5-overlay"><p class="title-5"></p><a href="watchlibrary-page.html"><div class="m5-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m5-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-lg hidden-sm hidden-xs hidden-md"></div>
+                    <div class="spacer-md hidden-sm hidden-xs hidden-lg hidden-xl"></div>
+                    <div class="movie-six col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m6-overlay"><p class="title-6"></p><a href="watchlibrary-page.html"><div class="m6-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m6-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                    </div>  
+                    <div class="movie-seven col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m7-overlay"><p class="title-7"></p><a href="watchlibrary-page.html"><div class="m7-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m7-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-sm hidden-md hidden-lg hidden-xl"></div>
+                    <div class="movie-eight col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m8-overlay"><p class="title-8"></p><a href="watchlibrary-page.html"><div class="m8-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m8-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-md hidden-sm hidden-xs hidden-lg hidden-xl"></div>
+                    <div class="movie-nine col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m9-overlay"><p class="title-9"></p><a href="watchlibrary-page.html"><div class="m9-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m9-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="movie-ten col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m10-overlay"><p class="title-10"></p><a href="watchlibrary-page.html"><div class="m10-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m10-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-lg hidden-sm hidden-xs hidden-md"></div>
+                    <div class="spacer-md hidden-sm hidden-xs hidden-lg hidden-xl"></div>
+                    <div class="movie-eleven col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m11-overlay"><p class="title-11"></p><a href="watchlibrary-page.html"><div class="m11-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m11-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                    </div>  
+                    <div class="movie-twelve col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m12-overlay"><p class="title-12"></p><a href="watchlibrary-page.html"><div class="m12-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m12-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-sm hidden-md hidden-lg hidden-xl"></div>
+                    <div class="movie-thirteen col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m13-overlay"><p class="title-13"></p><a href="watchlibrary-page.html"><div class="m13-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m13-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-md hidden-sm hidden-xs hidden-lg hidden-xl"></div>
+                    <div class="movie-fourteen col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m14-overlay"><p class="title-14"></p><a href="watchlibrary-page.html"><div class="m14-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m14-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="movie-fiveteen col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m15-overlay"><p class="title-15"></p><a href="watchlibrary-page.html"><div class="m15-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m15-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-lg hidden-sm hidden-xs hidden-md"></div>
+                    <div class="spacer-md hidden-sm hidden-xs hidden-lg hidden-xl"></div>
+                    <div class="movie-sixteen col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m16-overlay"><p class="title-16"></p><a href="watchlibrary-page.html"><div class="m16-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m16-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                    </div>  
+                    <div class="movie-seventeen col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m17-overlay"><p class="title-17"></p><a href="watchlibrary-page.html"><div class="m17-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m17-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-sm hidden-md hidden-lg hidden-xl"></div>
+                    <div class="movie-eightteen col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m18-overlay"><p class="title-18"></p><a href="watchlibrary-page.html"><div class="m18-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m18-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="spacer-md hidden-sm hidden-xs hidden-lg hidden-xl"></div>
+                    <div class="movie-nineteen col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m19-overlay"><p class="title-19"></p><a href="watchlibrary-page.html"><div class="m19-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m19-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                    <div class="movie-twenty col-sm-4 col-xs-4 col-md-3 col-lg-2"><div class="m20-overlay"><p class="title-20"></p><a href="watchlibrary-page.html"><div class="m20-wl">
+                        <p class="sign-p">Add To Watch List</p></div></a>
+                        <a href="#"><div class="m20-vd">
+                            <p class="sign-p">View Details</p></div></a>
+                        </div>
+                        </div>
+                </div><!--movies row one-->
+            </div>
+        <!--button and footer--> 
+	   </div>
+    
+     <div class="footer-template"></div>
+    
+	</body>
+</html>
