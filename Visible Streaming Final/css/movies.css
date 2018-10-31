@@ -597,19 +597,19 @@ header img{
 }
 
 .spacer-lg {
-    height: 400px;
+    height: 1700px;
     width: 31px;
     float:left;  
 }
 
 .spacer-md {
-    height: 400px;
+    height: 3300px;
     width: 60px;
     float: left;
 }
 
 .spacer-xs {
-    width: 400px;
+    height: 4000px;
     width: 60px;
     float: left;
 }
@@ -1976,6 +1976,18 @@ header img{
     margin-bottom: 10px;
     float: left;
     margin-top: 120px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+}
+
+button:active {
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
 }
 
 .filter-one2 {

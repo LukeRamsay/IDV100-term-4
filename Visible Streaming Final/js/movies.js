@@ -20,9 +20,9 @@ $(function(){
         });
     });
     
-    // Api work
+    // Api work 
     
-    var apiRequest1 = 'http://www.omdbapi.com/?i=tt1813757&apikey=c1d7f8f6';
+    var apiRequest1 = 'http://www.omdbapi.com/?i=tt0076759&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest1, moviecallback1);
         
@@ -55,7 +55,6 @@ $(function(){
             localStorage.setItem(" Ratinng ", rating1);
             
             
-            
         });
         
         $(".m1-wl").on("click", function(){
@@ -67,7 +66,7 @@ $(function(){
         });
     };
     
-    var apiRequest2 = 'http://www.omdbapi.com/?i=tt0780548&apikey=c1d7f8f6';
+    var apiRequest2 = 'http://www.omdbapi.com/?i=tt3748528&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest2, moviecallback2);
         
@@ -112,7 +111,7 @@ $(function(){
         });
     };
     
-    var apiRequest3 = 'http://www.omdbapi.com/?i=tt0111161&apikey=c1d7f8f6';
+    var apiRequest3 = 'http://www.omdbapi.com/?i=tt0086250&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest3, moviecallback3);
         
@@ -156,7 +155,7 @@ $(function(){
         });
     };
     
-    var apiRequest4 = 'http://www.omdbapi.com/?i=tt3778644&apikey=c1d7f8f6';
+    var apiRequest4 = 'http://www.omdbapi.com/?i=tt2527336&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest4, moviecallback4);
         
@@ -201,7 +200,7 @@ $(function(){
         });
     };
     
-    var apiRequest5 = 'http://www.omdbapi.com/?i=tt0214915&apikey=c1d7f8f6';
+    var apiRequest5 = 'http://www.omdbapi.com/?i=tt2488496&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest5, moviecallback5);
         
@@ -706,7 +705,7 @@ $(function(){
         });
     };
     
-    var apiRequest16 = 'http://www.omdbapi.com/?i=tt0086250&apikey=c1d7f8f6';
+    var apiRequest16 = 'http://www.omdbapi.com/?i=tt1813757&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest16, moviecallback16);
         
@@ -751,7 +750,7 @@ $(function(){
         
     };
     
-    var apiRequest17 = 'http://www.omdbapi.com/?i=tt0076759&apikey=c1d7f8f6';
+    var apiRequest17 = 'http://www.omdbapi.com/?i=tt0780548&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest17, moviecallback17);
         
@@ -798,7 +797,7 @@ $(function(){
         });
     };
     
-    var apiRequest18 = 'http://www.omdbapi.com/?i=tt3748528&apikey=c1d7f8f6';
+    var apiRequest18 = 'http://www.omdbapi.com/?i=tt0111161&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest18, moviecallback18);
         
@@ -844,7 +843,7 @@ $(function(){
         });
     };
     
-    var apiRequest19 = 'http://www.omdbapi.com/?i=tt2527336&apikey=c1d7f8f6';
+    var apiRequest19 = 'http://www.omdbapi.com/?i=tt3778644&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest19, moviecallback19);
         
@@ -891,7 +890,7 @@ $(function(){
         });
     };
     
-    var apiRequest20 = 'http://www.omdbapi.com/?i=tt2488496&apikey=c1d7f8f6';
+    var apiRequest20 = 'http://www.omdbapi.com/?i=tt0214915&apikey=c1d7f8f6';
     
     $.getJSON(apiRequest20, moviecallback20);
         
@@ -1224,4 +1223,6 @@ $(function(){
         $(".m20-wl").css("visibility" , "hidden");
         $(".title-20").css("visibility" , "hidden");
     });
+    
+    
 });

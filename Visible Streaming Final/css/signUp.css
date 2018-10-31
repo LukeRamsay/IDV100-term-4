@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body{padding: 0; margin: 0;}
+
+
+#background-container{
+    background-image: url(../img/background_img.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+}
+
+
+.slogan{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.slogan h1{
+    font-size: 75px;
+    letter-spacing: 10px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.slogan h4{
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+form{
+    color: white;
+    display: block;
+    position: relative;
+    margin: 25px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.info-input{
+    color: white;
+    display: block;
+    position: relative;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-spacer{
+    width: 100%;
+    height: 35px;
+}
+
+.btn-wrapper{
+    margin-top: 30px;
+    width: 100%;
+}
+
+#form{
+    color: white;
+}
+
+
+.input-btn{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border: 1px solid #913430;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.input-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+    border: 1px solid white;
+}
+
+.signup-wrapper{
+    width: 100%;
+}
+
+.signup-btn{
+    height: 50px;
+    background-color: white;
+    color: #222;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+    padding-top: 15px;
+}
+
+.signup-btn:hover{
+    cursor: pointer;
+    background-color: #913430;
+    color: white;
+}
+
+.signup-wrapper a{
+    text-decoration: none;
+    
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.kevin-spacer{
+    height: 285px;
+}
+
+::placeholder{
+    color: white;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    form {
+        background-color: #222;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
