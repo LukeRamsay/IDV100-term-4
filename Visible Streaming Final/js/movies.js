@@ -939,7 +939,143 @@ $(function(){
     
     //Filter work
     
+    $(".filter-row2").hide();
+    $(".filter-row3").hide();
+    $(".filter-row4").hide();
+    $(".filter-row5").hide();
     
+    $(".filter-one2").on("click", function(){
+        $(".filter-row3").hide();
+        $(".filter-row4").hide();
+        $(".filter-row5").hide();
+        $(".filter-row2").fadeIn();
+    });
+    
+    $(".filter-one3").on("click", function(){
+        $(".filter-row2").hide();
+        $(".filter-row4").hide();
+        $(".filter-row5").hide();
+        $(".filter-row3").fadeIn();
+    });
+    
+    $(".filter-one4").on("click", function(){
+        $(".filter-row3").hide();
+        $(".filter-row2").hide();
+        $(".filter-row5").hide();
+        $(".filter-row4").fadeIn();
+    });
+    
+    $(".filter-one5").on("click", function(){
+        $(".filter-row3").hide();
+        $(".filter-row4").hide();
+        $(".filter-row2").hide();
+        $(".filter-row5").fadeIn();
+    });
+    
+    $(".filter-one1").on("click", function(){
+        $(".movies").hide();
+        $(".5star").fadeIn();  
+    });
+    
+    $(".i10").on("click", function(){
+        $(".movies").hide();
+        $(".10").fadeIn();  
+    });
+    
+    $(".i8").on("click", function(){
+        $(".movies").hide();
+        $(".8").fadeIn();  
+    });
+    
+    $(".i6").on("click", function(){
+        $(".movies").hide();
+        $(".6").fadeIn();  
+    });
+    
+    $(".i4").on("click", function(){
+        $(".movies").hide();
+        $(".4").fadeIn();  
+    });
+    
+    $(".i2").on("click", function(){
+        $(".movies").hide();
+        $(".2").fadeIn();  
+    });
+    
+    $(".gcomedy").on("click", function(){
+        $(".movies").hide();
+        $(".com").fadeIn();  
+    });
+    
+    $(".gaction").on("click", function(){
+        $(".movies").hide();
+        $(".act").fadeIn();  
+    });
+    
+    $(".gdrama").on("click", function(){
+        $(".movies").hide();
+        $(".dram").fadeIn();  
+    });
+    
+    $(".ghorror").on("click", function(){
+        $(".movies").hide();
+        $(".hor").fadeIn();  
+    });
+    
+    $(".gsci").on("click", function(){
+        $(".movies").hide();
+        $(".sci").fadeIn();  
+    });
+    
+    $(".y2010").on("click", function(){
+        $(".movies").hide();
+        $(".21th").fadeIn();  
+    });
+    
+    $(".y2000").on("click", function(){
+        $(".movies").hide();
+        $(".2th").fadeIn();  
+    });
+    
+    $(".y1990").on("click", function(){
+        $(".movies").hide();
+        $(".199th").fadeIn();  
+    });
+    
+    $(".y1980").on("click", function(){
+        $(".movies").hide();
+        $(".198th").fadeIn();  
+    });
+    
+    $(".y1970").on("click", function(){
+        $(".movies").hide();
+        $(".197th").fadeIn();  
+    });
+    
+    $(".leng").on("click", function(){
+        $(".movies").hide();
+        $(".eng").fadeIn();  
+    });
+    
+    $(".lind").on("click", function(){
+        $(".movies").hide();
+        $(".ind").fadeIn();  
+    });
+    
+    $(".lswa").on("click", function(){
+        $(".movies").hide();
+        $(".swa").fadeIn();  
+    });
+    
+    $(".lman").on("click", function(){
+        $(".movies").hide();
+        $(".ger").fadeIn();  
+    });
+    
+    $(".lita").on("click", function(){
+        $(".movies").hide();
+        $(".ita").fadeIn();  
+    });
     
     
     // Jquery Styling

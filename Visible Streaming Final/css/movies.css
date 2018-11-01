@@ -608,9 +608,9 @@ header img{
     float: left;
 }
 
-.spacer-xs {
+.spacer-sm {
     height: 4000px;
-    width: 60px;
+    width: 40px;
     float: left;
 }
 
@@ -1975,16 +1975,16 @@ header img{
     border-style: solid;
     margin-bottom: 10px;
     float: left;
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
-.button:hover {
+.filter-one1:active, .filter-one2:active,.filter-one3:active,.filter-one4:active,.filter-one5:active, .filter-two1:active, .filter-two2:active,.filter-two3:active,.filter-two4:active,.filter-two5:active {
     cursor: pointer;
     background-color: white;
     color: #913430;
 }
 
-button:active {
+.filter-one1:hover, .filter-one2:hover,.filter-one3:hover,.filter-one4:hover,.filter-one5:hover, .filter-two1:hover, .filter-two2:hover,.filter-two3:hover,.filter-two4:hover,.filter-two5:hover {
     cursor: pointer;
     background-color: white;
     color: #913430;
@@ -2004,7 +2004,7 @@ button:active {
     margin-bottom: 10px;
     display: inline-block;
     float: left;
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 .filter-one3 {
@@ -2021,7 +2021,7 @@ button:active {
     margin-bottom: 10px;
     display: inline-block;
     float: left;
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 .filter-one4 {
@@ -2038,7 +2038,7 @@ button:active {
     margin-bottom: 10px;
     display: inline-block;
     float: left;
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 .filter-one5 {
@@ -2055,14 +2055,14 @@ button:active {
     margin-bottom: 10px;
     display: inline-block;
     float: left;
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 .filter-spacer{
     height: 50px;
     float: left;
     display: inline-block;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-right: auto;
 }
 
