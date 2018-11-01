@@ -3,58 +3,47 @@
 	margin-top: 20%;
 }
 
-.accordion {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
 
 .active, .accordion:hover {
     background-color: white;
 	color: black;
 }
 
-.panel {
-    background-color: blue;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-	border-radius: 0px;
-}
 
 .block-one{
 	height: 300px;
 	background-color: gray;
 	padding: 10px;
+	border-radius: 20px;
 }
 
 .block-two{
 	height: 300px;
 	background-color: black;
 	padding: 10px;
+	border-radius: 20px;
+	margin-left: 10px;
 }
 
 .text-2{
 	color: white;
 	text-align: left;
-	margin-top: 7%;
+	margin-top: 17%;
 	
 }
 
 
 .container-10{
-	height: 220px;
-	background-color: pink;
+	height: 320px;
+	background-color: #efefef;
 	border-radius: 20px;
 	margin-left: 50px;
 	width: 180px ;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-10:hover{
+	background-color: #efefef;
 }
 
 .display-6{
@@ -64,21 +53,57 @@
 	margin-top: 10%;
 }
 
+.display-5{
+	margin-top: 8%;
+}
 
+.round-button {
+    background-color: #913430;
+    margin-left: 25%;
+    width: 30px;
+    margin-top: 1.5%;
+    border-radius: 50%;
+    float: right;
+	height: 30px;
+}
+
+.round-button1 {
+    background-color: #913430;
+    width: 30px;
+    margin-top: 45px;
+    border-radius: 50%;
+    float: right;
+    margin-right: -51.9%;
+    height: 30px;
+}
+
+.icons{
+	width: 50%;
+    height: 50%;
+    margin-left: 28%;
+    margin-top: 25%;
+}
+
+.icons1{
+	width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+}
 
 .container-11{
-	height: 220px;
+	height: 320px;
 	background-color: #efefef;
 	border-radius: 20px;
-	margin-left: 25%;
+	margin-left: 5%;
 	width: 680px ;
-	margin-top: 5%;
+	margin-top: 2%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container-12{
 	height: 50px;
-	margin-left: 25%;
+	margin-left: 5%;
 	width: 70%;
 	margin-top: 2%;
 }
@@ -87,10 +112,36 @@
 	background-color: #913430;
 	margin-left: 25%;
 	width: 200px;
-	margin-top: 4%;
+	margin-top: 1.5%;
 	border-radius: 100px;
 	float: right;
 	margin-right: 5%
+}
+
+.container-15{
+	background-color: #913430;
+	margin-left: 25%;
+	width: 200px;
+	margin-top: 1.5%;
+	border-radius: 100px;
+	float: right;
+	margin-right: -20%
+}
+
+.container-131{
+	background-color: #913430;
+	margin-left: 25%;
+	margin-top: 8%;
+	border-radius: 100px;
+	float: right;
+}
+
+
+.container-151{
+	background-color: #913430;;
+	margin-top: 5%;
+	border-radius: 100px;
+	float: right;
 }
 
 #Remove{
