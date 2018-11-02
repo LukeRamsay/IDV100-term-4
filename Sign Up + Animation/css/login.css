@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{padding: 0; margin: 0;}
+
+
+#background-container{
+    background-image: url(../img/background_img.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+}
+
+
+.slogan{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.slogan h1{
+    font-size: 75px;
+    letter-spacing: 10px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.slogan h4{
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+form{
+    display: block;
+    position: relative;
+    margin: 25px;
+    padding: 30px;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+}
+
+label{
+    display: block;
+    position: relative;
+    top: -20px; 
+    left: 0px;
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.info-input{
+    display: block;
+    position: relative;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 2;
+    
+}
+
+input:focus, input:valid{
+    outline: none;
+    border-bottom: 1px solid #913430; 
+}
+
+
+input:focus + label, input:valid + label{
+    top: -40px;
+    font-size: 11px;
+    color: #913430;
+}
+
+.btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-btn{
+    height: 50px;
+    background-color: #913430;
+    color: white;
+    border: 1px solid #913430;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-bottom: 25px;
+    padding-top: 13px;
+}
+
+.input-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #913430;
+    border: 1px solid white;
+}
+
+.btn-wrapper a{
+    text-decoration: none;
+}
+
+.signup-wrapper{
+    width: 100%;
+}
+
+.signup-btn{
+    height: 50px;
+    background-color: white;
+    color: #222;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+    padding-top: 15px;
+}
+
+.signup-btn:hover{
+    cursor: pointer;
+    background-color: #913430;
+    color: white;
+}
+
+.signup-btn a{
+    text-decoration: none;
+    
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.kevin-spacer{
+    height: 285px;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    form {
+        background-color: #222;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
