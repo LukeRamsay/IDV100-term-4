@@ -42,6 +42,10 @@ $(function(){
 				$(".overlay-1").css("visibility", "hidden");
 			});
 	
+	
+	
+	
+	
 	var api2 = 'http://www.omdbapi.com/?i=tt3104988&apikey=c1d7f8f6';
 	
 	$.getJSON(api2, movie2);
@@ -199,151 +203,97 @@ $(function(){
   
   	
 	
-	var api1 = 'http://www.omdbapi.com/?i=tt7040874&apikey=c1d7f8f6';
+	var api9 = 'http://www.omdbapi.com/?i=tt7040874&apikey=c1d7f8f6';
 	
-	$.getJSON(api1, movie1);
+	$.getJSON(api9, movie9);
 	
-		function movie1(moviedata1){
-			console.log(moviedata1);
-				var poster1 = moviedata1.Poster;
-				var title1 = moviedata1.Title;
+		function movie9(moviedata9){
+			console.log(moviedata9);
+				var poster9 = moviedata9.Poster;
+				var title9 = moviedata9.Title;
 			
-		$(".poster-one-3").css("background-image", "url(" + poster1 + ")");
-		$(".title-one").text(title1);
+		$(".poster-one-1").css("background-image", "url(" + poster9 + ")");
+		$(".title-one-1").text(title9);
 			
-			
-		};
-	
-		$(".poster-one-3").on("mouseenter" , function(){
-				$(".overlay-1").css("visibility", "visible");
-			});
-	
-		$(".poster-one-3").on("mouseleave" , function(){
-				$(".overlay-1").css("visibility", "hidden");
-			});
-	
-	var api2 = 'http://www.omdbapi.com/?i=tt3104988&apikey=c1d7f8f6';
-	
-	$.getJSON(api2, movie2);
-	
-		function movie2(moviedata2){
-			console.log(moviedata2);
-				var poster2 = moviedata2.Poster;
-				var title2 = moviedata2.Title;
-			
-		$(".poster-two-3").css("background-image", "url(" + poster2 + ")");
-		$(".title-two").text(title2);
 			
 		};
 	
-		$(".poster-two-3").on("mouseenter" , function(){
-				$(".overlay-2").css("visibility", "visible");
+		$(".poster-one-1").on("mouseenter" , function(){
+				$(".overlay-9").css("visibility", "visible");
 			});
 	
-		$(".poster-two-3").on("mouseleave" , function(){
-				$(".overlay-2").css("visibility", "hidden");
+		$(".poster-one-1").on("mouseleave" , function(){
+				$(".overlay-9").css("visibility", "hidden");
 			});
 	
+	var api10 = 'http://www.omdbapi.com/?i=tt3104988&apikey=c1d7f8f6';
 	
-	var api3 = 'http://www.omdbapi.com/?i=tt3846674&apikey=c1d7f8f6';
+	$.getJSON(api10, movie10);
 	
-	$.getJSON(api3, movie3);
-	
-		function movie3(moviedata3){
-			console.log(moviedata3);
-				var poster3 = moviedata3.Poster;
-				var title3 = moviedata3.Title;
+		function movie10(moviedata10){
+			console.log(moviedata10);
+				var poster10 = moviedata10.Poster;
+				var title10 = moviedata10.Title;
 			
-		$(".poster-three-3").css("background-image", "url(" + poster3 + ")");
-		$(".title-three").text(title3);
+		$(".poster-two-2").css("background-image", "url(" + poster10 + ")");
+		$(".title-two-2").text(title10);
+			
+		};
+	
+		$(".poster-two-2").on("mouseenter" , function(){
+				$(".overlay-9").css("visibility", "visible");
+			});
+	
+		$(".poster-two-2").on("mouseleave" , function(){
+				$(".overlay-9").css("visibility", "hidden");
+			});
+	
+	
+	var api11 = 'http://www.omdbapi.com/?i=tt3846674&apikey=c1d7f8f6';
+	
+	$.getJSON(api11, movie11);
+	
+		function movie11(moviedata11){
+			console.log(moviedata11);
+				var poster11 = moviedata11.Poster;
+				var title11 = moviedata11.Title;
+			
+		$(".poster-three-3").css("background-image", "url(" + poster11 + ")");
+		$(".title-three-3").text(title11);
 			
 		};
 	
 		$(".poster-three-3").on("mouseenter" , function(){
-				$(".overlay-3").css("visibility", "visible");
+				$(".overlay-9").css("visibility", "visible");
 			});
 	
 		$(".poster-three-3").on("mouseleave" , function(){
-				$(".overlay-3").css("visibility", "hidden");
+				$(".overlay-9").css("visibility", "hidden");
 			});
 	
-	var api4 = 'http://www.omdbapi.com/?i=tt5304992&apikey=c1d7f8f6';
+	var api12 = 'http://www.omdbapi.com/?i=tt5304992&apikey=c1d7f8f6';
 	
-	$.getJSON(api4, movie4);
+	$.getJSON(api12, movie12);
 	
-		function movie4(moviedata4){
-			console.log(moviedata4);
-				var poster4 = moviedata4.Poster;
-				var title4 = moviedata4.Title;
+		function movie12(moviedata12){
+			console.log(moviedata12);
+				var poster12 = moviedata12.Poster;
+				var title12 = moviedata12.Title;
 			
-		$(".poster-four-3").css("background-image", "url(" + poster4 + ")");
-		$(".title-four").text(title4);
+		$(".poster-four-4").css("background-image", "url(" + poster12 + ")");
+		$(".title-four-4").text(title12);
 			
 		};
 	
-		$(".poster-four-3").on("mouseenter" , function(){
-				$(".overlay-4").css("visibility", "visible");
+		$(".poster-four-4").on("mouseenter" , function(){
+				$(".overlay-9").css("visibility", "visible");
 			});
 	
-		$(".poster-four-3").on("mouseleave" , function(){
-				$(".overlay-4").css("visibility", "hidden");
+		$(".poster-four-4").on("mouseleave" , function(){
+				$(".overlay-9").css("visibility", "hidden");
 			});
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
   });
+
+	
 

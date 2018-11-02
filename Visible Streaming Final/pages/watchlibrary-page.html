@@ -1,4 +1,4 @@
-<!doctype>
+<!--doctype-->
 <html>
 <head>
 	
@@ -27,7 +27,7 @@
 	
 	 <header>
 			 
-			 <nav id="topnav" class="navbar navbar-inverse navbar-fixed-top">
+			<nav id="topnav" class="navbar navbar-inverse navbar-fixed-top">
 			 	<div id="layout" class="container">
 				 	<div id="navbar-header" class="navbar-header">
 						
@@ -50,11 +50,11 @@
 					</ul>
 				</div>
 				 
-				 <div class="logo hidden-sm  hidden-xs  hidden-md"></div>
+				 <div class="logo hidden-sm  hidden-xs  hidden-md " style="height: 80px"></div>
 				 <div class="profile hidden-sm  hidden-xs  hidden-md"></div>
 				 <div class="profile-2 visible-sm visible-xs"></div>
 				 
-				  <div class="profile-3 visible-md"></div>
+				  <div class="profile-3 visible-md visible-sm"></div>
 				 
 				<div id="sidenav" class="sidenav visible-sm visible-md">
   					<div id="slidebtn" class="slideBtn">&#9776;</div>  
@@ -69,31 +69,51 @@
 	<div class="content">
 	
 		<div class="movies-list visible-xs">
-			<button class="accordion">Movie 1</button>
-				<div class="panel col-xs-12">
-					<div class="block-one col-xs-5"></div>
-					<div class="block-two col-xs-7">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>
-				</div>
+			<div class="container-10 col-xs-3">
+				<img src="">
+				
+				<ul style="margin-bottom: 10px ; margin-top: 230px">
+					
+						<div class="round-button">
+						<img class=icons src="../img/Asset%201@300x.png">
+						</div>
+					
+						<div class="round-button1">
+						<img class=icons1 src="../img/Asset%202@300x.png">
+						</div>
+					
+				</ul>
+				
+			</div>
+			
+			
+         
+				
 		
-			<button class="accordion">Movie 2</button>
-				<div class="panel col-xs-12">
-					<div class="block-one col-xs-5"></div>
-					<div class="block-two col-xs-7">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>
-				</div>
+			
 		</div><!--mobile devices-->
 		
 		<div class="movie">
 			<div class="text-2 visible-md visible-sm"><h1>Latest Movies</h1></div>
 		
 			<div class="display-5 visible-sm visible-md">
-			<div class="container-10 col-xs-3"></div>
-			<div class="container-7 col-xs-3"></div>
-			<div class="container-8 col-xs-3"></div>
-			<div class="container-9 col-xs-3"></div>
+			<div class="panel col-xs-12">
+					<div class="block-one col-xs-5">
+						<img src="">
+					</div>
+					<div class="block-two col-xs-6">
+						<p id="details"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong></p>
+						
+						<div class="container-131 col-xs-12">
+				<h1><p id="Remove">Remove</p></h1>
+			</div>
+			
+			<div class="container-151 col-xs-12">
+				<h1><p id="Remove">Watch now</p></h1>
+			</div>
+						
+					</div>
+				</div>
 			</div>
 				
 		</div><!--iPad/Tablet-->
@@ -110,6 +130,11 @@
 				<h1><p id="Remove">Remove</p></h1>
 			</div>
 			
+			<div class="container-15">
+				<h1><p id="Remove">Watch now</p></h1>
+			</div>
+			
+			
 			</div>
 		
 		
@@ -121,59 +146,9 @@
 		
 		</div><!--Desktop-->
 	
-		
-		</div>
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<script>
-var acc = document.getElementsByClassName("accordion");
 
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
+	</div>
 </body>
 </html>
-	
